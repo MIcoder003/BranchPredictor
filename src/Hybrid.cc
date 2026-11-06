@@ -1,4 +1,6 @@
 #include "Hybrid.h"
+#include <cstdio>
+#include <cstddef>
 
 Hybrid::Hybrid(int k, int m1, int n, int m2)
     : gshare(m1, n),
